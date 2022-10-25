@@ -1,0 +1,174 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.cabecalho{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container {
+    padding-top: 20px;
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    background-color: white;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    font-family: Impact;   
+}
+
+.descricao_foto{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+   
+}
+.sub_title{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Corpo1*/
+
+#descricao{
+    padding: 50px;
+    text-align:left;
+}
+#wiki{
+    text-align: right;
+}
+/* Corpo2*/
+.container2{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.lista{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.title_disc{
+    color: white;
+    font-size: 38px;    
+    text-align: center;
+    font-family: Impact; 
+}
+h2{
+    color: blanchedalmond;
+    font-size: 28px; 
+}
+#planet_list{
+    color: white;
+    font-size: 18px;
+}
+
+/* Corpo3*/
+.container3{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#title2{
+    font-family: Impact;
+    font-size: 38px;
+    text-align: center;
+    padding: 20px;
+}
+#bloco{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    text-align: center;
+    font-family: Impact;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.spotify{
+    height: 400px;
+    width: 400px;
+    margin-top: 10px;
+}
+/* Rodape*/
+.rodape{
+    background-color: black;
+    width: 100%;
+    color: white;
+    height: 30px;
+    text-align: center;
+}
+
+#img_contato{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.img_rod{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+/* Mobile*/
+
+@media (max-width:833px){
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+#descricao{
+    padding: 10px;
+    text-align: justify;
+}
+.container2{
+    height: 100%;
+
+}
+.foto_perfil{
+    height: 100%;
+    width: 100%;
+}
+.lista{
+    flex-direction: column;
+    align-items: center;
+}
+#tile2{
+    padding: 0px;
+}
+.container3{
+    height: 100%;
+    width: 100%; 
+}
+#bloco{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 0px;
+    align-items: center;
+}
+.spotify{
+    width: 320px;
+}
+}
